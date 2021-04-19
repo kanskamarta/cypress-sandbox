@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <title>Shopping list</title>
+ <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="content-wrapper">
+        <h3 class="card-header">Shopping list</h3>
+        <h5>Number of items on list: <span>0</span></h5>
+        <form action="" id="add-item-form">
+            <input class="shopping-input" type="text" id="input-add">
+            <button type="submit" class="shopping-button add-button"> Add</button>
+        </form>
+        <form action="">
+            <input class="shopping-input search-input" type="text" id="input-search" placeholder="Search">
+            <!-- <button type="submit" class="shopping-button search-button">Search</button> -->
+        </form>
+        <ul id="shoppin-list">
+            <li class="task"> <span>tomato</span> <button class="shopping-button remove-button">X</button></li>
+            <li class="task"> <span>potato</span> <button class="shopping-button remove-button">X</button></li>
+            <li class="task"> <span>bean</span> <button class="shopping-button remove-button">X</button></li>
+            <li class="task"> <span>cabbage</span> <button class="shopping-button remove-button">X</button></li>
+        </ul>
+    </div>
+ <script src="main.js"></script>
+</body>
+
+</html>
