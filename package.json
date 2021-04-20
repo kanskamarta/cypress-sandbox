@@ -1,0 +1,24 @@
+{
+  "name": "cypress-sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "devDependencies": {
+    "cypress": "^7.1.0",
+    "typescript": "^4.2.4"
+  },
+  "scripts": {
+    "test": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kanskamarta/cypress-sandbox.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kanskamarta/cypress-sandbox/issues"
+  },
+  "homepage": "https://github.com/kanskamarta/cypress-sandbox#readme"
+}
