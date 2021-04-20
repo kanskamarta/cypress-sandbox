@@ -11,21 +11,21 @@
 
 <body>
     <div class="content-wrapper">
-        <h3 class="card-header">Shopping list</h3>
-        <h5>Number of items on list: <span>0</span></h5>
-        <form action="" id="add-item-form">
-            <input class="shopping-input" type="text" id="input-add">
-            <button type="submit" class="shopping-button add-button"> Add</button>
+        <h3 class="card-header" data-cy="h3-shopping-list">Shopping list</h3>
+        <h5 data-cy="h5-number-of-items">Number of items on list: <span data-cy="span-number-of-items">0</span></h5>
+        <form action="" id="add-item-form" data-cy="form-add-item">
+            <input class="shopping-input" type="text" id="input-add" data-cy="input-add-item">
+            <button type="submit" class="shopping-button add-button" data-cy="button-add-item"> Add</button>
         </form>
         <form action="">
-            <input class="shopping-input search-input" type="text" id="input-search" placeholder="Search">
+            <input class="shopping-input search-input" type="text" id="input-search" placeholder="Search" data-cy="input-search">
             <!-- <button type="submit" class="shopping-button search-button">Search</button> -->
         </form>
-        <ul id="shoppin-list">
-            <li class="task"> <span>tomato</span> <button class="shopping-button remove-button">X</button></li>
-            <li class="task"> <span>potato</span> <button class="shopping-button remove-button">X</button></li>
-            <li class="task"> <span>bean</span> <button class="shopping-button remove-button">X</button></li>
-            <li class="task"> <span>cabbage</span> <button class="shopping-button remove-button">X</button></li>
+        <ul id="shopping-list" data-cy="ul-shopping-list">
+            <li class="task"> <span>tomato</span> <button class="shopping-button remove-button" data-cy="button-remove">X</button></li>
+            <li class="task"> <span>potato</span> <button class="shopping-button remove-button" data-cy="button-remove">X</button></li>
+            <li class="task"> <span>bean</span> <button class="shopping-button remove-button" data-cy="button-remove">X</button></li>
+            <li class="task"> <span>cabbage</span> <button class="shopping-button remove-button" data-cy="button-remove">X</button></li>
         </ul>
     </div>
  <script src="main.js"></script>
