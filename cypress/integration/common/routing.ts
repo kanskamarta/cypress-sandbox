@@ -1,5 +1,8 @@
-import { When } from "cypress-cucumber-preprocessor/steps";
+import { Given } from "cypress-cucumber-preprocessor/steps";
 
-When("I visit {word}", (path) => {
+Given("I visit {word}", (path) => {
   cy.visit(path);
+  cy.request(path).then((response) => {
+    expect(response.status).eq(200);
+  });
 });

@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <div class="content-wrapper">
+    <div class="content-wrapper"  data-cy="div-content">
         <h3 class="card-header" data-cy="h3-shopping-list">Shopping list</h3>
         <h5 data-cy="h5-number-of-items">Number of items on list: <span data-cy="span-number-of-items">0</span></h5>
         <form action="" id="add-item-form" data-cy="form-add-item">
@@ -22,10 +22,10 @@
             <!-- <button type="submit" class="shopping-button search-button">Search</button> -->
         </form>
         <ul id="shopping-list" data-cy="ul-shopping-list">
-            <li class="task"> <span>tomato</span> <button class="shopping-button remove-button" data-cy="button-remove">X</button></li>
-            <li class="task"> <span>potato</span> <button class="shopping-button remove-button" data-cy="button-remove">X</button></li>
-            <li class="task"> <span>bean</span> <button class="shopping-button remove-button" data-cy="button-remove">X</button></li>
-            <li class="task"> <span>cabbage</span> <button class="shopping-button remove-button" data-cy="button-remove">X</button></li>
+            <li class="task"> <span data-cy="span-item">tomato</span> <button class="shopping-button remove-button" data-cy="button-remove">X</button></li>
+            <li class="task"> <span data-cy="span-item">potato</span> <button class="shopping-button remove-button" data-cy="button-remove">X</button></li>
+            <li class="task"> <span data-cy="span-item">bean</span> <button class="shopping-button remove-button" data-cy="button-remove">X</button></li>
+            <li class="task"> <span data-cy="span-item">cabbage</span> <button class="shopping-button remove-button" data-cy="button-remove">X</button></li>
         </ul>
     </div>
  <script src="main.js"></script>

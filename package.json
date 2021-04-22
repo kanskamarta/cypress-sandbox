@@ -4,6 +4,7 @@
   "description": "",
   "main": "main.js",
   "devDependencies": {
+    "@types/faker": "^5.5.3",
     "cypress": "^7.1.0",
     "cypress-cucumber-preprocessor": "^4.0.3",
     "tsify": "^5.0.2",
@@ -25,5 +26,8 @@
   "homepage": "https://github.com/kanskamarta/cypress-sandbox#readme",
   "cypress-cucumber-preprocessor": {
     "nonGlobalStepDefinitions": true
+  },
+  "dependencies": {
+    "faker": "^5.5.3"
   }
 }
