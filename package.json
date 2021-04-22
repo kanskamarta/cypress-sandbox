@@ -1,0 +1,33 @@
+{
+  "name": "cypress-sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "devDependencies": {
+    "@types/faker": "^5.5.3",
+    "cypress": "^7.1.0",
+    "cypress-cucumber-preprocessor": "^4.0.3",
+    "tsify": "^5.0.2",
+    "typescript": "^4.2.4"
+  },
+  "scripts": {
+    "cypress:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kanskamarta/cypress-sandbox.git"
+  },
+  "keywords": [],
+  "author": "kanskamarta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kanskamarta/cypress-sandbox/issues"
+  },
+  "homepage": "https://github.com/kanskamarta/cypress-sandbox#readme",
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "dependencies": {
+    "faker": "^5.5.3"
+  }
+}
